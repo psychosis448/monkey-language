@@ -47,7 +47,6 @@
             "./.direnv/**"
           ];
         };
-        formatter = config.treefmt.build.wrapper;
       };
       flake = {
         # The usual flake attributes can be defined here, including system-
