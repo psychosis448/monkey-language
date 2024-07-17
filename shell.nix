@@ -3,6 +3,12 @@
     name = "Monkey Programming";
     commands = [
       {
+        name = "r";
+        category = "running";
+        help = "Run go code";
+        command = "go run main.go";
+      }
+      {
         name = "gt";
         category = "testing";
         help = "Test go code";
