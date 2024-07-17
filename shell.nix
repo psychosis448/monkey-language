@@ -26,7 +26,6 @@
     ## https://blog.mplanchard.com/posts/installing-a-specific-version-of-a-package-with-nix.html
     packages = with pkgs; [
       go
-      golines
       gopls
       gotools
     ];
