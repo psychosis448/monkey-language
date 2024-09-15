@@ -13,10 +13,10 @@ func TestLetStatements(t *testing.T) {
     let foobar = 838383;
     `
 
-    // Actual usage of lexer, instead of mock, might blow up parser tests, that
-    // are actually bugs in the lexer.
-    // But this trade-off enables us to use actual source code as input here,
-    // which increases readability!
+	// Actual usage of lexer, instead of mock, might blow up parser tests, that
+	// are actually bugs in the lexer.
+	// But this trade-off enables us to use actual source code as input here,
+	// which increases readability!
 	l := lexer.New(input)
 	p := New(l)
 
