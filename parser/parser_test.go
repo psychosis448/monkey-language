@@ -1,10 +1,9 @@
 package parser
 
 import (
-	"testing"
-
 	"psychosis448/monkey/ast"
 	"psychosis448/monkey/lexer"
+	"testing"
 )
 
 func TestLetStatements(t *testing.T) {

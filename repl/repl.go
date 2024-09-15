@@ -4,7 +4,6 @@ import (
 	"bufio"
 	"fmt"
 	"io"
-
 	"psychosis448/monkey/lexer"
 	"psychosis448/monkey/token"
 )
