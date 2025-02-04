@@ -56,7 +56,7 @@ let twice = fn(f, x) {
 Major parts of the interpreter:
 
 - lexer
-- parser
+- parser (Pratt parser; top down operator precedence; recursive descent parser)
 - abstract syntax tree (AST)
 - internal object system
 - evaluator

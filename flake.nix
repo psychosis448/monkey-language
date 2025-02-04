@@ -32,7 +32,6 @@
         ...
       }: {
         devshells = import ./shell.nix {inherit pkgs;};
-        ## TODO: setup
         treefmt = {
           inherit (config.flake-root) projectRootFile;
           package = pkgs.treefmt;
