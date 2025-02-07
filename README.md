@@ -60,3 +60,10 @@ Major parts of the interpreter:
 - abstract syntax tree (AST)
 - internal object system
 - evaluator
+
+## Top Down Operator Precedence
+
+<!--TODO: Document how Pratt parsing works-->
+
+- Pratt, Vaughan - [Top Down Operator Precedence](https://github.com/tdop/tdop.github.io/tree/master)
+- Kladow, Alex - [Simple but Powerful Pratt Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html)
